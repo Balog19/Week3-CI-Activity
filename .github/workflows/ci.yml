@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Display hello world
+      - name: install npm
         run: npm install
       - name: run the build
         run: npm run build
